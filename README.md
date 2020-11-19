@@ -12,6 +12,8 @@
 * What operation does the hash function perform? 
 
 #### The hash function takes a key and assigns each character(A-Z) an integer(1-26). Then, the value of each character within the key is summed % 11 = index value. 
+![download](https://user-images.githubusercontent.com/73499055/99735801-e160c100-2a8a-11eb-8f7c-4e0a51882887.png)
+
 * Why are hash tables beneficial? 
 
 #### A hash table is an efficient way to sort a large amount of keys into unqiue key-value pairs. 
