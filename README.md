@@ -6,6 +6,9 @@
 
 #### A hash table is an unordered collection of key-value pairs, where each value is unique. The key is sent to a hash function (hashSimple()) that performs an arithmertic operation and gives the key a unique value that is not associated with any other keys.
 
+![Screen Shot 2020-11-19 at 4 40 45 PM](https://user-images.githubusercontent.com/73499055/99732993-14ed1c80-2a86-11eb-8a71-6a4207c044f0.png)
+
+
 * What operation does the hash function perform? 
 
 #### The hash function takes a key and assigns each character(A-Z) an integer(1-26). Then, the value of each character within the key is summed % 11 = index value. 
