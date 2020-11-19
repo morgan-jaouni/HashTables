@@ -35,7 +35,8 @@ The hash is: <br/>
 5445254133660435902
 
 ### Example B
-
+Assigning Storm Troopers as a key and hashing their ID’s (like FN- 2187) to assign them to different squadrons;
+Making a hash table of users on an online game platform and being able to find their data quickly to update their scores. Their usernames can be hashed into a table and when they get a new high score or just get more points depending on the game it can be found and adjusted accordingly and quickly. It can also be done continually and with large amounts of data so it also scales.
 ## Questions 
 
 ### What happens when the hash function assigns the same value to different keys? 
