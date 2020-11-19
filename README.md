@@ -21,11 +21,11 @@
 ### A school system could benefit from using hash tables by taking all of the registered students and using the hash function (hashSimple()) to give each student a unique school ID number. 
 
 Class Person:
-def __init__(self, name): <br/>
+def _ init _(self, name): <br/>
 self.name = name <br/>
-def __eq__(self, other):  <br/>
+def _ eq _(self, other):  <br/>
 return self.name == other.name <br/>
-def __hash__(self): <br/>
+def _ hash _(self): <br/>
 print(‘The hash is:’) <br/>
 return hash((self.name)) <br/>
 person = Person(‘Adam’) <br/>
