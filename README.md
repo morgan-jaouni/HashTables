@@ -18,7 +18,7 @@
 
 ## Example A (Python)
 
-### A school system could benefit from using hash tables by taking all of the registered students and using the hash function (hashSimple()) to give each student a unique school ID number. 
+ A school system could benefit from using hash tables by taking all of the registered students and using the hash function (hashSimple()) to give each student a unique school ID number. 
 
 Class Person:
 def _ init _(self, name): <br/>
