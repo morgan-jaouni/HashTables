@@ -16,9 +16,23 @@
 
 #### A hash table is an efficient way to sort a large amount of keys into unqiue key-value pairs. 
 
-## Examples
+## Examples (Python)
 
 ### A school system could benefit from using hash tables by taking all of the registered students and using the hash function (hashSimple()) to give each student a unique school ID number. 
+
+Class Person:
+def __init__(self, name): <br/>
+self.name = name <br/>
+def __eq__(self, other):  <br/>
+return self.name == other.name <br/>
+def __hash__(self): <br/>
+print(‘The hash is:’) <br/>
+return hash((self.name)) <br/>
+person = Person(‘Adam’) <br/>
+print(hash(person)) <br/>
+When run, the output of the above program will look like this, <br/>
+The hash is: <br/>
+5445254133660435902
 
 ### 
 
@@ -27,4 +41,6 @@
 ### What happens when the hash function assigns the same value to different keys? 
 
 #### When the hash function assings an identical value to two different keys, it is defined as collision. When collisions occurs, the hash function will utilize linear probing which iterates through the values and assigns the key to the first available value in the index. This resulted in a new function being formed, linearHash() which will automatically verify that the value is unique before assigning it to a key.
+
+### When would you want to use a hash table? 
 
