@@ -16,7 +16,7 @@
 
 #### A hash table is an efficient way to sort a large amount of keys into unqiue key-value pairs. 
 
-## Examples (Python)
+## Example A (Python)
 
 ### A school system could benefit from using hash tables by taking all of the registered students and using the hash function (hashSimple()) to give each student a unique school ID number. 
 
@@ -34,7 +34,7 @@ When run, the output of the above program will look like this, <br/>
 The hash is: <br/>
 5445254133660435902
 
-### 
+### Example B
 
 ## Questions 
 
