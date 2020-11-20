@@ -60,3 +60,7 @@ A hash table organizes data so you can quickly look up values for a given key.
 * Unordered. Keys aren't stored in a special order. If you're looking for the smallest key, the largest key, or all the keys in a range, you'll need to look through every key to find it.
 * Single-directional lookups. While you can look up the value for a given key in O(1)O(1) time, looking up the keys for a given value requires looping through the whole dataset—O(n)O(n) time.
 * Not cache-friendly. Many hash table implementations use linked lists, which don't put data next to each other in memory.
+
+#### Resources 
+https://www.cs.usfca.edu/~galles/visualization/ClosedHash.html
+https://www.cs.usfca.edu/~galles/visualization/ClosedHashBucket.html
