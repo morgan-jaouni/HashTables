@@ -44,6 +44,9 @@ Making a hash table of users on an online game platform and being able to find t
 ### What happens when the hash function assigns the same value to different keys? 
 
 #### When the hash function assings an identical value to two different keys, it is defined as collision. When collisions occurs, the hash function will utilize linear probing which iterates through the values and assigns the key to the first available value in the index. This resulted in a new function being formed, linearHash() which will automatically verify that the value is unique before assigning it to a key.
+Linear Probing: f(i) = i
+Quadratic Probing: f(i) = i * i
+Double Hashing: f(i) = i * hash2(elem)
 
 ### When would you want to use a hash table? 
 A hash table organizes data so you can quickly look up values for a given key.
